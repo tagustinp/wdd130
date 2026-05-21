@@ -1,3 +1,11 @@
+:root {
+    --heading-background-color: rgb(0, 24, 4);
+    --heading-text-color: #3a2626;
+    --heading-font: 'Montserrat', Helvetica, sans-serif;
+    --padding: 1rem;
+    --border: 1px solid rgb(0 0 0/ 0.1);
+}
+
 main {
     max-width: 840px;
 }
