@@ -12,8 +12,14 @@
     --border: 1px solid rgb(0 0 0/ 0.1);
 }
 
+header {
+    text-align: center;
+}
+
 main {
     max-width: 840px;
+    margin: auto;
+    padding: 10px;
 }
 
 main img {
@@ -24,13 +30,14 @@ main img {
 
 aside {
     width: 20rem;
-    text-align: center;
+    margin: auto;
 }
 
 aside h2 {
     position: absolute;
-    top: 47px;
-    left: 150px;
+    top: 330px;
+    left: 800px;
+    margin: auto;
 }
 
 aside img {
@@ -60,20 +67,22 @@ h1 {
 }
 
 img {
-    width: 150px height: auto;
-    border: 1px solidblack;
+    width: 150px;
+    height: auto;
+    border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
 
 p {
-    padding: 0;
+    padding: 35px;
+    text-align: center;
 }
 
 /*class selectors*/
 
 .box {
-    margin: 1rem;
+    margin: auto;
     border: 1px solid rgb(0 0 0 / 10%);
     padding: 1rem;
     background-color: #ddd;
