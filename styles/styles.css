@@ -64,6 +64,7 @@ nav {
 
 h1 {
     color: darkblue;
+    margin: auto;
 }
 
 img {
@@ -72,6 +73,7 @@ img {
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    margin: auto;
 }
 
 p {
