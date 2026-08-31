@@ -57,6 +57,11 @@ article {
     height: auto;
 }
 
+figure img {
+    width: 350px;
+    height: auto;
+}
+
 h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
