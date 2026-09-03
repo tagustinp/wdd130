@@ -43,9 +43,8 @@ aside {
 
 aside h2 {
     position: absolute;
-    top: 330px;
-    left: 800px;
-    margin: auto;
+    width: 100%;
+    text-align: center;
 }
 
 aside img {
