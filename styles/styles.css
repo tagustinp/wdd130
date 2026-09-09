@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+:root {
+    --heading-background-color: rgb(0, 24, 4);
+    --heading-text-color: #3a2626;
+    --heading-font: 'Montserrat', Helvetica, sans-serif;
+    --padding: 1rem;
+    --border: 1px solid rgb(0 0 0/ 0.1);
+}
+
+header {
+    text-align: center;
+    max-width: 840px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+main {
+    margin: auto;
+    padding: 10px;
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    float: right;
+}
+
+aside {
+    width: 20rem;
+    margin: auto;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+aside h2 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+    max-width: 840px;
+    margin: auto;
+}
+
+nav {
+    background-color: darkblue;
+    padding: 10px;
+}
+
+nav a {
+    background-color: white;
+    display: block;
+    padding: 20px;
+}
+
+nav a {
+    display: block;
+    padding: 0.5rem;
+    color: #0b00a3;
+    font-size: 1.2rem;
+}
+
+h1 {
+    color: darkblue;
+    margin: auto;
+    border-bottom: 10px #000;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    margin: auto;
+}
+
+p {
+    padding: 10px;
+    text-align: center;
+}
+
+/*class selectors*/
+
+.box {
+    margin: auto;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+
+header,
+.grid,
+footer {
+    display: grid;
+    align-items: center;
+}
