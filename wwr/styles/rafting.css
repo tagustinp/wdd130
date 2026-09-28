@@ -80,6 +80,37 @@ h1 {
 
 /*class selectors*/
 
+.history {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    margin: 20px
+}
+
+.history img {
+    width: 400px;
+    height: auto;
+}
+
+.history h2 {
+    grid-column: 1 / 4;
+    text-align: center;
+}
+
+.adventure {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 10px;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.adventure img {
+    width: 200px;
+    height: auto;
+}
+
 .socialmedia a {
     text-decoration: none;
 }
@@ -107,4 +138,19 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+}
+
+.footer p {
+    grid-column: 2;
+    align-items: center;
+}
+
+.footer nav {
+    grid-column: 3;
 }
