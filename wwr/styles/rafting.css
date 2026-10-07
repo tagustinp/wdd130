@@ -92,6 +92,29 @@ button:hover {
     background-color: darkgreen;
 }
 
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+th,
+td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+    text-align: center;
+}
+
+thead th,
+tfoot tr {
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+}
+
 /*class selectors*/
 
 .history {
@@ -122,6 +145,20 @@ button:hover {
 
 .adventure img {
     width: 200px;
+    height: auto;
+}
+
+.structure {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 10px;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.structure img {
+    width: 250px;
     height: auto;
 }
 
@@ -181,7 +218,7 @@ button:hover {
 }
 
 .maps {
-    width: 100%;
+    width: 450px;
     height: 450px;
     border: 0;
 }
