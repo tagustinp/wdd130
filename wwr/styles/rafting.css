@@ -66,6 +66,11 @@ article {
     padding: 8px;
 }
 
+label {
+    display: block;
+    text-align: left;
+}
+
 h1 {
     position: absolute;
     top: 20px;
