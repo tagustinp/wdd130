@@ -139,6 +139,18 @@ tfoot tr {
     text-align: center;
 }
 
+.pair {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: 20px
+}
+
+.pair img {
+    width: 400px;
+    height: auto;
+}
+
 .adventure {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
