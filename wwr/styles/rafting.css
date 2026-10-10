@@ -115,7 +115,7 @@ td {
 
 thead th,
 tfoot tr {
-    background-color: #000;
+    background-color: var(--secondary-color);
     color: #fff;
     font-weight: 700;
 }
